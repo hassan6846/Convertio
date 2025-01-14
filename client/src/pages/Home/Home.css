@@ -1,0 +1,57 @@
+.Home_Container{
+    background-image: url('https://www.ilovepdf.com/img/bg/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.Home_title{
+    padding: 40px;
+}
+.Home_Head{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.Home_SubHead{
+    font-size: 22px;
+    color: #47474f;
+    text-align: center;
+}
+.Home_Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+.Home_Card{
+    background-color: #fff;
+    min-height: 250px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        display: flex;
+     height: auto;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     border-radius: 5px;
+     cursor: pointer;
+    padding: 10px;
+    &:hover{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;      
+        transform: scale(1.02);
+
+        transition: all 0.3s ease;
+    }
+}
+.Card_img{
+    height: 50px;
+    margin-bottom: 15px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+.Card_head{
+    margin-bottom: 5px;
+}
