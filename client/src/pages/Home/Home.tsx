@@ -114,7 +114,7 @@ const Home = () => {
             title: "Merge PDF",
             description: "Combine PDFs in the order you want with the easiest PDF merger available."
         },
-  
+
     ]
     return (
         <section>
@@ -128,22 +128,22 @@ const Home = () => {
                 </div>
 
                 {/* Wrap of Card */}
-            
 
 
-                    <div className='Home_Wrap'>
 
-                        {CardsData.map((card, index) => (
-                            <Link to={card.path}>
+                <div className='Home_Wrap'>
 
-                                <div className='Home_Card' key={index}>
-                                    <img className='Card_img' src={card.icon} alt={card.title} />
-                                    <h2 className='Card_head'>{card.title}</h2>
-                                    <p>{card.description}</p>
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
+                    {CardsData.map((card, index) => (
+                        <Link to={card.path}>
+
+                            <div className='Home_Card' key={index}>
+                                <img className='Card_img' src={card.icon} alt={card.title} />
+                                <h2 className='Card_head'>{card.title}</h2>
+                                <p>{card.description}</p>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
 
                 {/* Wrap Ends */}
             </div>
