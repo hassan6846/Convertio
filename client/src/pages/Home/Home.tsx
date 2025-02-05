@@ -78,6 +78,43 @@ const Home = () => {
             title: "Merge PDF",
             description: "Combine PDFs in the order you want with the easiest PDF merger available."
         },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+        {
+            icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOhEgnVviOYA4Y1r0OlzEEgj3_IGZ9Y89WQ&s",
+            path: "#",
+            title: "Merge PDF",
+            description: "Combine PDFs in the order you want with the easiest PDF merger available."
+        },
+  
     ]
     return (
         <section>
@@ -91,19 +128,23 @@ const Home = () => {
                 </div>
 
                 {/* Wrap of Card */}
-                <div className='Home_Wrap'>
+            
 
-                    {CardsData.map((card, index) => (
-                        <Link to={card.path}>
 
-                            <div className='Home_Card' key={index}>
-                                <img className='Card_img' src={card.icon} alt={card.title} />
-                                <h2 className='Card_head'>{card.title}</h2>
-                                <p>{card.description}</p>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
+                    <div className='Home_Wrap'>
+
+                        {CardsData.map((card, index) => (
+                            <Link to={card.path}>
+
+                                <div className='Home_Card' key={index}>
+                                    <img className='Card_img' src={card.icon} alt={card.title} />
+                                    <h2 className='Card_head'>{card.title}</h2>
+                                    <p>{card.description}</p>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+
                 {/* Wrap Ends */}
             </div>
         </section>
